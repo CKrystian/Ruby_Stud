@@ -3,5 +3,5 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-  validates_format_of :email, with: /\@grenoble-em\.com/, message: 'You should have an email from grenoble-em.com'      
+  validates_format_of :email, with: /\@stud.prz.edu\.pl/, message: 'You should have an email from stud.prz.edu.pl'      
 end
