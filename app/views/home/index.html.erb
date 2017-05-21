@@ -19,7 +19,7 @@ collapsed" data- 6
 	<button type="button" class="btn btn-default navbar-btn"><%= link_to 'Log off', destroy_user_session_path, method: :delete %>
 </button>
 <% else %>
-	<button type="button" class="btn btn-default navbar-btn"><%= link_to 'Join', new_user_registration_path %></button>
+	<button type="button" class="btn btn-default navbar-btn"><%= link_to 'Sign up', new_user_registration_path %></button>
 	<button type="button" class="btn btn-default navbar-btn"><%= link_to 'Log in', new_user_session_path %></button>
 <% end %>
 
